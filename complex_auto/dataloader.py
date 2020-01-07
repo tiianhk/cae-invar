@@ -146,7 +146,7 @@ class DataSampler(object):
             label = "shiftx" + str(shiftx)
 
         if transform == 0:
-            if self.max_x == 0:
+            if self.max_y == 0:
                 shifty = 0
             else:
                 shifty = np.random.randint(-self.max_y, self.max_y)

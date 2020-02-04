@@ -124,7 +124,7 @@ where depending on the CAE training and the dataset used, different `-r` and
 written to `.segraw` files into the folder
 `output/run_keyword`. The evaluation using `extract_motives_eval.py` 
 together with `extract_motives.py` is currently only implemented for the 
-[JKUPDD dataset](https://www.music-ir.org/mirex/wiki/2017:Discovery_of_Repeated_Themes_%26_Sections), as *groundtruth annotations* and *bpm information* has to be 
+[JKUPDD dataset](https://www.music-ir.org/mirex/wiki/2017:Discovery_of_Repeated_Themes_%26_Sections), as *groundtruth annotations* and *bpm information* have to be 
 available. In order to test the full pipeline, see Section
 [Quick Start](#quick-start).
 

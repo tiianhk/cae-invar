@@ -101,7 +101,7 @@ The converted files will be saved (bz2 compressed pickle) in the experiment fold
 A method to load the compressed files as numpy arrays can be found in `complex_auto/utils.py
  -> load_pyc_bz(filename)`.
 
-2b. In order to **create a self-similarity matrix** for each audio file, run
+2b. In order to also **create a self-similarity matrix** for each audio file, run
 ```
   python convert.py run_keyword filelist_audio.txt config_cqt.ini --self-sim-matrix
 ```
@@ -117,7 +117,7 @@ the same *run_keyword* for all steps.
  
 **Run the motive extractor** using
 ```
-python extract_motives.py run_keyword -r 2 -th 0.01
+python extract_motives.py run_keyword -r 2 -th 0.01 -csv jku_csv_files.txt
 ```
 where depending on the CAE training and the dataset used, different `-r` and 
 `-th` values may lead to better results. The found patterns are then 

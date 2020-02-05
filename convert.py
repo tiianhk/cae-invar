@@ -262,8 +262,8 @@ if __name__ == '__main__':
         raise AttributeError(f"Data_type {args.data_type} not supported. "
                              f"Possible type is 'cqt'.")
 
+    save_repres(out_dir, files, step_size=args.step_size)
+
     if args.self_sim_matrix:
         create_matrices(out_dir, files, step_size=args.step_size)
-    else:
-        save_repres(out_dir, files, step_size=args.step_size)
 

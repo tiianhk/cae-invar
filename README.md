@@ -6,7 +6,8 @@ PyTorch implementation of the Complex Autoencoder proposed in
 
 **Learning Complex Basis Functions for Invariant Representations of Audio** [[pdf]](https://arxiv.org/pdf/1907.05982.pdf)<br/>
 Stefan Lattner¹, Andreas Arzt², Monika Dörfler³, 2019<br/>
-*20th International Society for Music Information Retrieval Conference, ISMIR 2019, Delft, The Netherlands*
+*20th International Society for Music Information Retrieval Conference, ISMIR 2019, Delft, The Netherlands*<br/>
+(best paper award winner)
 
 *¹Sony CSL Paris*<br/>
 *²Institute of Computational Perception, JKU Linz*<br/>

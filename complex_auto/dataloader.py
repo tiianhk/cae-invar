@@ -176,7 +176,7 @@ class DataSampler(object):
             ngram_trans = self.standardize(ngram_trans)
 
         ngram = torch.FloatTensor(ngram).view(-1)
-        ngram_trans = torch.FloatTensor(ngram_trans).view(-1)
+        ngram_trans = torch.FloatTensor(ngram_trans).contiguous().view(-1)
 
         return ngram+1e-8, ngram_trans+1e-8, transform, song_id, label
 

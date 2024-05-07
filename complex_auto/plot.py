@@ -190,7 +190,7 @@ def make_tile(tile_parts, vp_separator_color=(255, 0, 0), unit=True):
     """
 
     # compute shape of tile, including separation lines
-    shapes = np.array([x.shape for x in tile_parts], np.int)
+    shapes = np.array([x.shape for x in tile_parts], int)
     # assume the viewpoints have all the same size in the first
     # dimension (the ngram size)
     assert np.std(shapes[:, 0]) == 0
